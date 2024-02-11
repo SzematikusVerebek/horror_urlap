@@ -7,6 +7,10 @@
     font-family: 'headerFont';
     src: url(font/horror.otf);
 }
+@font-face {
+    font-family: 'h1Font';
+    src: url(font/h1Horror.ttf);
+}
 
 body{
     background-image: url(kepek/bg3.jpg);
@@ -28,17 +32,16 @@ header{
 }
 header h1 {
     font-family: 'headerFont';
-    color: green;
 }
 .form-label {
+    color: white;
+}
+article{
     color: white;
 }
 
 /* nav{
     border: 1px solid red;
-}
-article{
-    border: 1px solid green;
 }
 aside{
     border: 1px solid blue;
@@ -53,4 +56,13 @@ footer{
 .horrorFormTajekoztatas {
     color: white;
     text-align: center;
+}
+
+.horrorH1Cim{
+    text-align: center;
+    font-family: 'h1Font';
+    /* background: url(kepek/bloodDrip.gif); */
+    background-size: cover;
+    /* -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; */
 }
