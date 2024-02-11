@@ -3,6 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: 'headerFont';
+    src: url(font/horror.otf);
+}
+
 body{
     background-image: url(kepek/bg3.jpg);
     height: 100%;
@@ -12,6 +17,8 @@ body{
 }
 main {
     width: 60%; 
+    background-color: #171717;
+
 }
 header{
     border: 1px solid black;
@@ -19,9 +26,13 @@ header{
     background-size: cover;
     height: 250px;
 }
+header h1 {
+    font-family: 'headerFont';
+    color: green;
+}
 
 
-nav{
+/* nav{
     border: 1px solid red;
 }
 article{
@@ -32,7 +43,7 @@ aside{
 }
 footer{
     border: 1px solid purple;
-}
+} */
 .row{
     margin: auto;
 }
