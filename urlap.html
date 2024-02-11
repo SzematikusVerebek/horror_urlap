@@ -38,32 +38,48 @@
       </nav>
       <article class="col-lg-8">
         <div class="horrorFormTajekoztatas">
-          <h3>Film bekérés</h3>
+          <h3>Film beküldés</h3>
           <p>Ez a felület azt a célt szolgálja, hogy az igényesnek tartott, elfeledett horror filmeket, beküldjék felhasználónévvel , film cimmel,évjárattal, horror kategóriával ellátva, mi feltöltjük, és megosztjuk az film erőforrásához tartozó linket amely a saját szerveren fut.  </p>
-        </div>
-        <form action="#" method="get">
-          <div class="mb-3 mt-3">
-            <label for="felhasznalonev" class="form-label">Felhasználónév:</label>
-            <input type="text" class="form-control" id="felhasznalonev" placeholder="Becenevet adj, ne teljes nevet" name="felhasznalonev">
+          <h3>HA FELTOLTESZ, AKKOR MP4 FORMATUMBAN TEDD!</h1>
+          <p>Ha nem MP4 akkor <a href="https://cloudconvert.com/mp4-converter">Link</a></p>
+          <form action="#" method="get">
+            <div class="mb-3 mt-3">
+              <label for="felhasznalonev" class="form-label">Felhasználónév:</label>
+              <input type="text" class="form-control" id="felhasznalonev" placeholder="Becenevet adj, ne teljes nevet" name="felhasznalonev">
+            </div>
+            <div class="mb-3">
+              <label for="filmCim" class="form-label">Film cim:</label>
+              <input type="text" class="form-control" id="filmCim" placeholder="film cime" name="filmCim">
+            </div>
+            <div class="mb-3">
+              <label for="filmCim" class="form-label">Válasz horror tipust:</label>
+            <select class="form-select">
+              <option>Gótikus horror</option>
+              <option>Pszeudo-realista horror</option>
+              <option>Testhorror</option>
+              <option>Misztikus horror</option>
+              <option>Sci-fi horror</option>
+              <option>Slasher horror</option>
+            </select> 
           </div>
           <div class="mb-3">
-            <label for="filmCim" class="form-label">Film cim:</label>
-            <input type="text" class="form-control" id="filmCim" placeholder="film cime" name="filmCim">
-          </div>
-          <div class="mb-3">
-            <label for="filmDatum">Film elkészülésének dátuma:</label>
+            <label for="filmDatum" class="form-label">Film elkészülésének dátuma:</label>
             <input type="date" id="filmDatum" name="filmDatum"> 
           </div>
+          <div class="mb-3">
+            <input type="file" id="myFile" name="filename" class="form-label">
+          </div>
           <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
         </form> 
       </article>
       <aside class="col-lg-4 bg-info">
         <div class="container mt-3">
-            <h2>Kapcsódó cikkek 1</h2>
-          </div>
-          <div class="container mt-3">
-            <ol class="list-group list-group-numbered">
-              <li class="list-group-item bg-success">
+          <h2>Kapcsódó cikkek 1</h2>
+        </div>
+        <div class="container mt-3">
+          <ol class="list-group list-group-numbered">
+            <li class="list-group-item bg-success">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.Animi
                 libero omnis assumenda amet placeat nobis iste.
               </li>
