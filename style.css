@@ -10,10 +10,14 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-main{
-    width: 60%;}
+main {
+    width: 60%; 
+}
 header{
     border: 1px solid black;
+    background-image: url(kepek/header.jpg);
+    background-size: cover;
+    height: 250px;
 }
 nav{
     border: 1px solid red;
