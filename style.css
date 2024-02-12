@@ -44,17 +44,23 @@ article{
 
 /* nav{
     border: 1px solid red;
-}
+} 
+*/
 aside{
-    border: 1px solid blue;
+    border: 1px solid white;
+    color: white;
 }
-footer{
-    border: 1px solid purple;
-} */
+
+
+footer {
+    background-color: #212529;
+    
+} 
 .row{
     margin: auto;
 }
 
+/* urlap  */
 .horrorFormTajekoztatas {
     color: white;
     text-align: center;
@@ -67,6 +73,15 @@ footer{
     
 }
 
+#megerositesBtn {
+    margin-bottom: 30px;
+}
+
+/* urlap vege */
+
+
+
+/* index  */
 .horrorH1Cim{
     text-align: center;
     font-family: 'h1Font';
@@ -80,4 +95,18 @@ footer{
     margin-left: auto;
     margin-right: auto;
     width: 50%; 
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
+
+/* index vege */
+
+
+/* gallery  */
+
+.card-footer p a {
+    text-decoration: none;
+    color: white;
+}
+
+/* gallery vege */
